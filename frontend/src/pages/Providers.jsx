@@ -434,7 +434,7 @@ const Providers = () => {
                              <img 
                                  src={selectedProvider.profilePhoto.startsWith('http') 
                                      ? selectedProvider.profilePhoto 
-                                     : `${import.meta.env.VITE_SOCKET_URL || "http://localhost:5000"}/uploads/${selectedProvider.profilePhoto}`} 
+                                     : `${import.meta.env.VITE_SOCKET_URL || "http://200.234.47.38:5000"}/uploads/${selectedProvider.profilePhoto}`} 
                                  className="w-full h-full object-cover" 
                                  alt={selectedProvider.fullName}
                              />
@@ -804,7 +804,7 @@ const Providers = () => {
              
              <div className="flex-1 relative bg-black/40 border border-white/5 rounded-[3.5rem] overflow-hidden flex items-center justify-center group">
                 <img 
-                  src={imageView.startsWith('http') ? imageView : `${import.meta.env.VITE_SOCKET_URL || "http://localhost:5000"}/uploads/${imageView}`} 
+                  src={imageView.startsWith('http') ? imageView : `${import.meta.env.VITE_SOCKET_URL || "http://200.234.47.38:5000"}/uploads/${imageView}`} 
                   alt="Intel Source" 
                   className="max-h-full max-w-full object-contain p-4 group-hover:scale-[1.02] transition-transform duration-700"
                 />

@@ -512,7 +512,7 @@ const PayoutRequests = () => {
                   <a
                     href={selectedRequest.receipt.startsWith('http')
                       ? selectedRequest.receipt
-                      : `${(import.meta.env.VITE_API_URL || 'http://localhost:5000/api').replace(/\/api$/, '')}${selectedRequest.receipt.startsWith('/') ? '' : '/'}${selectedRequest.receipt}`
+                      : `${(import.meta.env.VITE_API_URL || 'http://200.234.47.38:5000/api').replace(/\/api$/, '')}${selectedRequest.receipt.startsWith('/') ? '' : '/'}${selectedRequest.receipt}`
                     }
                     target="_blank"
                     rel="noreferrer"

@@ -172,7 +172,7 @@ const Users = () => {
 
    const buildImageUrl = (img) => {
       if (!img) return null;
-      const SERVER_URL = import.meta.env.VITE_SOCKET_URL || "http://localhost:5000";
+      const SERVER_URL = import.meta.env.VITE_SOCKET_URL || "http://200.234.47.38:5000";
       return img.startsWith("http") ? img : `${SERVER_URL}${img.startsWith("/") ? "" : "/"}${img}`;
    };
 

@@ -397,7 +397,7 @@ const Bookings = () => {
                                                             <img 
                                                                 src={selectedBooking.providerId.profilePhoto.startsWith('http') 
                                                                     ? selectedBooking.providerId.profilePhoto 
-                                                                    : `${import.meta.env.VITE_SOCKET_URL || "http://localhost:5000"}/uploads/${selectedBooking.providerId.profilePhoto}`} 
+                                                                    : `${import.meta.env.VITE_SOCKET_URL || "http://200.234.47.38:5000"}/uploads/${selectedBooking.providerId.profilePhoto}`} 
                                                                 className="w-full h-full object-cover" 
                                                                 alt={selectedBooking.providerId.fullName}
                                                             />

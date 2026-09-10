@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: karayabandhu/skilled-ustaad-admin-frontend:latest
     container_name: admin-frontend
     ports:
       - "8080:80"
